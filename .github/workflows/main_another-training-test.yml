@@ -36,5 +36,6 @@ jobs:
           app-name: 'another-training-test'
           slot-name: 'Production'
           package: .
+          clean: true
 
           
