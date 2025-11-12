@@ -17,7 +17,7 @@ jobs:
       contents: read #This is required for actions/checkout
 
     steps:
-      - name: Just upload
+      - name: Checkout code
         uses: actions/download-artifact@v4
         with:
           name: node-app
